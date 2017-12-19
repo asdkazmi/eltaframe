@@ -1,0 +1,10 @@
+.dt-navdes {
+    background: #313131;
+    height: 190px;
+    margin-top: 0px;
+    z-index: -1;
+}
+
+.dt-navdes a {
+    color: white;
+}

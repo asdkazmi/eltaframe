@@ -1,0 +1,29 @@
+.checkbox {
+    float: left;
+    margin-right: 5px;
+}
+.checkbox > label {
+    content: " ";
+    width: 15px;
+    height: 15px;
+    display: block;
+    float: left;
+    border: 2px solid;
+    border-radius: 2px;
+    transition: 500ms;
+}
+
+.checkbox input[type='checkbox'] {
+    opacity: 0;
+    margin-left: -15px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.checkbox.check-green > input[type='checkbox']:checked + label {
+    background: green;
+}
+
+.checkbox.check-darkbrown > input[type='checkbox']:checked + label {
+    background: #461111;
+}
